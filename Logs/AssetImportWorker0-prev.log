@@ -1,0 +1,1156 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/domin/Documents/Unity/VR Base
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49632
+Successfully changed project path to: C:/Users/domin/Documents/Unity/VR Base
+C:/Users/domin/Documents/Unity/VR Base
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27472] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 2875578064 [EditorId] 2875578064 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27472] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 2875578064 [EditorId] 2875578064 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 38.53 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/domin/Documents/Unity/VR Base/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017330 seconds.
+- Loaded All Assemblies, in  0.511 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 318 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.800 seconds
+Domain Reload Profiling: 1308ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (800ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (488ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.051 seconds
+Refreshing native plugins compatible for Editor in 23.36 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.327 seconds
+Domain Reload Profiling: 2372ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (731ms)
+		LoadAssemblies (508ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1328ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1048ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (778ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 27.94 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 5286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (486.7 KB). Loaded Objects now: 5747.
+Memory consumption went from 191.4 MB to 190.9 MB.
+Total: 5.488700 ms (FindLiveObjects: 0.597000 ms CreateObjectMapping: 0.213800 ms MarkObjects: 4.326100 ms  DeleteObjects: 0.350700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137723.572408 seconds.
+  path: Assets/Scenes/Chapter 6/6_06_EmissiveMaterials 1.unity
+  artifactKey: Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/6_06_EmissiveMaterials 1.unity using Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a334a783da06e83a2697ab736f29af3') in 0.002754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.178468 seconds.
+  path: Assets/Scenes/Chapter 6/6_07_CeilingLightRays.unity
+  artifactKey: Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/6_07_CeilingLightRays.unity using Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ac57e7f252bf2724a3c83c5102be34') in 0.000615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.236948 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b57864c4496a7d7936d2691fc6e652') in 0.110803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 11.101237 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7746724e591e0d0b01efe6cf4f65edcb') in 0.009358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 5.429515 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928175c91e2d117ef5b776b4efdfd3fc') in 0.015276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.389107 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb83055b9dd3f0d937bc33fdcdcacbd') in 0.014512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.403032 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2b7702b31de0a28aab599b932e9bec') in 0.017725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 8.620511 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b1127e59bbce8f4fa2e8512fcf7ea9') in 0.008099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 9.463125 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3622aaef91ec2de53424e687204f26dd') in 0.015886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.992481 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ad2fa4c4d33847f37a97e10d4df7ed') in 0.015740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.213587 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a816bfcc631ede97a565a06b1e5cd6f1') in 0.015766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 2.588607 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f17ea3b0ef54ad38a8f6c2f113269e') in 0.015970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 25.787356 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bba13d74dad541b094202211aea1d39') in 0.018617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 46.147806 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866bf8d968afc48fb7d915f581593ef6') in 0.014410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1.998084 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba55f72b4d9d336dcaf16d99cf738f1') in 0.011813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 67.000524 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab40cf94e48bae4b82969a50c3a41dd6') in 0.015270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 22.164005 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697200eafd0024af67d626dc926a1f90') in 0.012223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 18.444242 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be49a2247b61c93bc8d2851119f1b98') in 0.010276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.192756 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31f2bd784c2af44691c3421b4939692') in 0.010099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.795293 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0b9e5df2e99dc351c7e5d8e6266147') in 0.014276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.583976 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cefb4709fd5831465673dae11b888a2') in 0.014287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 2.410472 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be5177bde74bbefd4750c99f00e4b97') in 0.010526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.593704 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e86b76b591920b6912f7fdd2769d28') in 0.010387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.397034 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c769bafa582d9febae7eeb132af78a') in 0.010293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.196748 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc3e69e2b498c3155a64b4a607f9d45') in 0.013859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.224530 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1572e5cd87b14e38127d3ebb8b8cac') in 0.009781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 35.218032 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4264977c309bb64e05fb7b07444f39b6') in 0.011221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 22.204568 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6daf55fe99da40a1ddc5846de7c043') in 0.010572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.386933 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cad7b96fc6f0a095c3ed1f25919c0f') in 0.011397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.388134 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31ccb80f1ab34ff19f653576c58c2ae') in 0.010725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.001593 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96cc57f4d5010340e390b2bf37c0f75') in 0.011090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.792105 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0692034ca3e66d364de3cbad7f30a98') in 0.011931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.992599 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7631ded85626901fbcea82047f96f01f') in 0.010501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.392602 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824b1cf4f2058e367120a13b52fa16ae') in 0.011338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.589525 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db001b3b7087aafa836ca69e5b57a657') in 0.011936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.595215 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da39b77fd986e07522526592876a470') in 0.009963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.395192 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276ffaf9c422b4ee68e752d91d393be3') in 0.010597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.591965 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984f93b69253bc8df8a2bde3cb411eca') in 0.010150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 14.735020 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25bbf418ad8c4d2b3e48b35bb9860a3') in 0.010411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.791681 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3cbf8cc96d5e3a5507c5726cde7a6f') in 0.010023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 19.142541 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83d8b0bd438f2604e43a55f7add3392') in 0.009793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.196453 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dbde3b4b9937e194cacc590ddf7ebf') in 0.010518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 16.925078 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcb4dd889e881a73be452e926e4f23f') in 0.010235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 4.017505 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca07f265bf3decef00fb046661bbf7cd') in 0.010351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 9.493135 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c5556b95726075d05fa770f6b713ee') in 0.010783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 13.300741 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e12c75d7b421142678ab6f122e8ccc') in 0.011887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.810696 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7696a08fa6cd81484660be33ea6a9d7') in 0.010178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.393697 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76145ae09ed10bded27294b395bba347') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 2.009177 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6bca2e6215008520369d8f7c8d2d4b') in 0.011017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.211967 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfff3e0b2a99862c487299196ceb011') in 0.011111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 5.834627 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f3fbb4503dd5d18a0eee1f98f3593e') in 0.010200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.797149 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff32bfe91bdc4e3b60f348198d4aaf3') in 0.010750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 7.659725 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df89d19b29be65d8f22ee0df6c35842') in 0.010931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 11.089730 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7306c7ba35b7e13b60df72d92ed623da') in 0.011265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.393047 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d938b7145c651633682b85c885da6f5') in 0.010856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 15.165601 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4cfe1a49170775f39c9365f3cff1cd') in 0.010018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 5.032922 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743b48c08fcb1e0cbb51779216419a37') in 0.010162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 4.037143 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fe6a883ec1529c9f7390c0dbf8ecf') in 0.009794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.804602 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de3ca48f920a642284950e0ffeb89b3') in 0.010238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.794906 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2ea06ecd04ccc896a892495e4ccd86') in 0.009700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.390434 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d5073c2e356065a3fca1c5b726ab23') in 0.013980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 6.845464 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e982c48219df3b8524954c067ebc436') in 0.010097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.010697 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875ec2b094cdbd6310029ee369efc765') in 0.011327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 2.609223 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fb86f5ebf245244876494f2cae0892') in 0.010450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 2.806765 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b58971b34615aed866356d0c15f3679') in 0.009979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.203576 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b9158ed9c7c58c8e57e99c20aa71d') in 0.010249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.392758 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dd0682d054bb87093f4faddb573208') in 0.010137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.202251 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caf077461a0a03d7d9443d94bdea3f4') in 0.009557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.635443 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20c3fe61faabd909900245e83cff824') in 0.009928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 2.010103 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa839b0ee3b7a75fcc0a698ca966558c') in 0.009538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 8.074927 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818c5cbe0ac02e6742328b2fbdd1ce95') in 0.009806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 4.216828 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ac40ce7cfdf0f02c58d16d4f7775aa') in 0.009625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 7.458355 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759a8d9fb76e692745537f3cee61c74b') in 0.010487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.827707 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55bec0534c8b41c4d7d3bfeb7bd8b54') in 0.009566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.188071 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136d03a7cd4c42f3ebe320ee673aa469') in 0.009876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 147.271892 seconds.
+  path: Assets/Materials/Ch 6 Materials/White_EmissiveLight.mat
+  artifactKey: Guid(1b5409bcab08c0f489273456e2838ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ch 6 Materials/White_EmissiveLight.mat using Guid(1b5409bcab08c0f489273456e2838ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3e7dd1da7d490ed2dce3bc8bb35d07') in 0.037786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.740309 seconds.
+  path: Assets/Materials/Ch 6 Materials/LightRay.mat
+  artifactKey: Guid(08980cd75f27c234697ffcb08c315241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ch 6 Materials/LightRay.mat using Guid(08980cd75f27c234697ffcb08c315241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73f056b71e84dd10169bee8671debf5') in 0.014117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 88.932447 seconds.
+  path: Assets/Prefabs/CeilingLight.prefab
+  artifactKey: Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CeilingLight.prefab using Guid(5cb17e067051c4440b777e933baf1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca9670092a05471b7486752216067fe') in 0.011078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 22.223580 seconds.
+  path: Assets/Scenes/Chapter 6/New Lighting Settings.lighting
+  artifactKey: Guid(501d94bbd4d1d67409f9aac98a59dc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/New Lighting Settings.lighting using Guid(501d94bbd4d1d67409f9aac98a59dc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fa642ff76b1b674aefd74e738a8bb0') in 0.001272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.274093 seconds.
+  path: Assets/Scenes/Chapter 6/6_03_IndoorLighting
+  artifactKey: Guid(3b067b759ba7af74a93d6fbde55aeee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/6_03_IndoorLighting using Guid(3b067b759ba7af74a93d6fbde55aeee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8c4bc083caa65b3d1d66b2fa63a6d0') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.984951 seconds.
+  path: Assets/Scenes/Chapter 6/6_07_CeilingLightRays.unity
+  artifactKey: Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/6_07_CeilingLightRays.unity using Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c29284e1e74aff0ce6b3adff32436d') in 0.000815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.520661 seconds.
+  path: Assets/Scenes/Chapter 6/6_07_CeilingLightRays.unity
+  artifactKey: Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/6_07_CeilingLightRays.unity using Guid(e26d4ccc301dbb34f9b75a41ee176f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2283ef845eb39c98a5fbdf0f5c0ea') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.551642 seconds.
+  path: Assets/Scenes/Chapter 6/New Lighting Settings.lighting
+  artifactKey: Guid(501d94bbd4d1d67409f9aac98a59dc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter 6/New Lighting Settings.lighting using Guid(501d94bbd4d1d67409f9aac98a59dc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4380ab1a46f9b5c68248b7352c366ac6') in 0.001812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 24.07 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.913 seconds
+Domain Reload Profiling: 2590ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1009ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (749ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 28.78 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 5215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (458.5 KB). Loaded Objects now: 5794.
+Memory consumption went from 181.0 MB to 180.5 MB.
+Total: 5.957400 ms (FindLiveObjects: 0.599500 ms CreateObjectMapping: 0.244700 ms MarkObjects: 4.783600 ms  DeleteObjects: 0.328000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.404853 seconds.
+  path: Assets/Materials/Ch 6 Materials/LightRay.mat
+  artifactKey: Guid(08980cd75f27c234697ffcb08c315241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ch 6 Materials/LightRay.mat using Guid(08980cd75f27c234697ffcb08c315241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1515f813bf8672a518c1813544e1d95e') in 0.268200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.828461 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Cheesecake B.prefab
+  artifactKey: Guid(7f8fe02ce2c90a447861132975571507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Cheesecake B.prefab using Guid(7f8fe02ce2c90a447861132975571507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b425e7ebcdc9dfa831fb37df395605c5') in 0.039995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Coffee Cup C.prefab
+  artifactKey: Guid(9618ee5198d5bc14690b61b995f89590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Coffee Cup C.prefab using Guid(9618ee5198d5bc14690b61b995f89590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74104d324f3fae355ad7e903966e160a') in 0.019029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005849 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Doughnut H.prefab
+  artifactKey: Guid(cd5c0226d9d4b554885c988834915042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Doughnut H.prefab using Guid(cd5c0226d9d4b554885c988834915042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359839b3d5d60c33c67bd72544e80d52') in 0.024328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Frappe B.prefab
+  artifactKey: Guid(80568ac56eee4324c9e6b89e04fdcb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Frappe B.prefab using Guid(80568ac56eee4324c9e6b89e04fdcb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8834167b5ceb945d6fe9e3da55447') in 0.027561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Curry plate.prefab
+  artifactKey: Guid(ef62557891c72774580b5ddab4813f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Curry plate.prefab using Guid(ef62557891c72774580b5ddab4813f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c50926d3ba0d8f43c9a6350ce470992') in 0.027813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Melon Piece.prefab
+  artifactKey: Guid(7097ad9a888dd99458dca648bfbe4c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Melon Piece.prefab using Guid(7097ad9a888dd99458dca648bfbe4c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c59bc4689efdaa266c4d68b69d8a91') in 0.021522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Lamb Chop Cooked.prefab
+  artifactKey: Guid(44b8404b36524d8498b3c9305721f977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Lamb Chop Cooked.prefab using Guid(44b8404b36524d8498b3c9305721f977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8905ceb9b8e601299c53d145a9517105') in 0.024558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Peach slice.prefab
+  artifactKey: Guid(983892090628c6245ab20d3d0541b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Peach slice.prefab using Guid(983892090628c6245ab20d3d0541b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f602eb541731dbff45955a5990acdf') in 0.027757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Sake Pot C.prefab
+  artifactKey: Guid(c5e6f07f5115f5746840026cbd44ec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Sake Pot C.prefab using Guid(c5e6f07f5115f5746840026cbd44ec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953da97c66d45c4ddead5005e0ea10c1') in 0.024042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Salmon Cut.prefab
+  artifactKey: Guid(3033aaa6052ed4b40b0f4d7b951b5095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Salmon Cut.prefab using Guid(3033aaa6052ed4b40b0f4d7b951b5095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777276437efac43a4b369be5b24d52c1') in 0.024328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Salmon skeleton.prefab
+  artifactKey: Guid(685c0fc5fa8b9c04ca226db350611cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Salmon skeleton.prefab using Guid(685c0fc5fa8b9c04ca226db350611cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a5c3910cb8fa097586581a31a23832') in 0.030228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Peach.prefab
+  artifactKey: Guid(c5240644e1df8364aa4cea385c7cf092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Peach.prefab using Guid(c5240644e1df8364aa4cea385c7cf092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9dec581cdb1ca0ecefdb3e39aaa3e8') in 0.029040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Skewer C.prefab
+  artifactKey: Guid(1cbf601fcc984244f8006afcebbf7d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Skewer C.prefab using Guid(1cbf601fcc984244f8006afcebbf7d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f195045d2e1015def66094d1e572069e') in 0.025258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Peach half no seed.prefab
+  artifactKey: Guid(6666b77016c300745b9cd0df60be89d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Peach half no seed.prefab using Guid(6666b77016c300745b9cd0df60be89d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f26fb9fa2beb72fdae98c1ed034998d') in 0.026165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Salami slice A.prefab
+  artifactKey: Guid(d64228cdf4658ad43a6702d0bfb35387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Salami slice A.prefab using Guid(d64228cdf4658ad43a6702d0bfb35387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56216ce88e69d41c97fb4dc6a96b7779') in 0.025415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Maki C1.prefab
+  artifactKey: Guid(e6758420bb20ab244a05b68ed185d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Maki C1.prefab using Guid(e6758420bb20ab244a05b68ed185d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d7945391da8d6fb654c6b296900d0d') in 0.017089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Cookies.prefab
+  artifactKey: Guid(be681692a047cee4baa286092a6f04e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Cookies.prefab using Guid(be681692a047cee4baa286092a6f04e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27914ee675ab5b4e141c06e7dc527fcd') in 0.026199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Melon.prefab
+  artifactKey: Guid(2c49621a8650a60459ee1c1548bee1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Melon.prefab using Guid(2c49621a8650a60459ee1c1548bee1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c1a4893c909679b67980834f900c15') in 0.026213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Salmon.prefab
+  artifactKey: Guid(3a245daa6cb83334d8a55a5e90125b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Salmon.prefab using Guid(3a245daa6cb83334d8a55a5e90125b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c987a7ca76dad976d9886b80630079eb') in 0.023327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Pizza Margarita.prefab
+  artifactKey: Guid(0c0ea431ace4f624895e2c41a184d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Pizza Margarita.prefab using Guid(0c0ea431ace4f624895e2c41a184d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3373b4a09eaa1e588ce7a34db06c14c3') in 0.027099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Food Pack-Demo/Prefabs/Salmon plastic tray.prefab
+  artifactKey: Guid(76c9ad9d42b5fb24f90335d19130672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Prefabs/Salmon plastic tray.prefab using Guid(76c9ad9d42b5fb24f90335d19130672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf2118fb62fbb631a1aace35a936d8c') in 0.026360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.757135 seconds.
+  path: Assets/Food Pack-Demo/Materials/Base color.mat
+  artifactKey: Guid(30c5e465dc21c534bada8d020bae91f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Materials/Base color.mat using Guid(30c5e465dc21c534bada8d020bae91f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7795e5c98cc9f34b145e44ddf1aef9a') in 0.017428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Food Pack-Demo/Materials/Ground.mat
+  artifactKey: Guid(945a79448b80295429dcfa63e188bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack-Demo/Materials/Ground.mat using Guid(945a79448b80295429dcfa63e188bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e581ae88797e2892295303906d5966') in 0.015697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
